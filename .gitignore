@@ -1,0 +1,37 @@
+# 编译目录
+build/
+cmake-build-*/
+*_autogen/
+compile_commands.json
+
+# 编译生成文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# 实验室数据和生成数据
+data/
+*.bin
+*.zip
+
+# 性能测试和数据库
+metrics_*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# Windows 临时文件
+Thumbs.db
+Desktop.ini
